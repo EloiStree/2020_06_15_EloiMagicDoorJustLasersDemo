@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class QAD_LaserSwithLightAlarm : MonoBehaviour
 {
-    public Light m_affectedLight;
+    public UnityEvent m_startAlarm;
+    public UnityEvent m_stopAlarm;
 
     public void SetAlarmFor(float seconds)
     {
-        m_affectedLight.enabled = true;
+        m_startAlarm.Invoke();
         Invoke("SetAlarmOff", seconds);
     }
     public void SetAlarmOff() {
-        m_affectedLight.enabled = false;
+        m_stopAlarm.Invoke();
 
     }
 
