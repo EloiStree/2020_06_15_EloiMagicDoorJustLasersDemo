@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.roomlasersdemoEditor",          
+    "references": ["be.eloistree.roomlasersdemo"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

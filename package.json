@@ -1,0 +1,26 @@
+
+{                                                                                
+  "name": "be.eloistree.roomlasersdemo",                              
+  "displayName": "Eloi Room Lasers Demo",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Demo of how to use \"just laser\" in the project magic room.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{
+      "be.eloistree.justlasers": "0.0.1",
+      "be.eloistree.magicdoorsroompattern":"0.0.1"
+  },     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2020_06_15_EloiMagicDoorJustLasersDemo.git",
+"footprint":"",
+"revision":"e554901e1e786a6dba3506f78277bc42693b2d2c"},     
+  "category": "Script"                   
+} 
