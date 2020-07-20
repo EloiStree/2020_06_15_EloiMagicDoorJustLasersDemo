@@ -9,7 +9,8 @@
   "keywords": ["Script","Tool"],                       
   "dependencies":{
       "be.eloistree.justlasers": "0.0.1",
-      "be.eloistree.magicdoorsroompattern":"0.0.1"
+      "be.eloistree.magicdoorsroompattern":"0.0.1",
+     "be.eloistree.license":"0.0.1"
   },     
   "relatedPackages":{},     
   "samples" : [],     
